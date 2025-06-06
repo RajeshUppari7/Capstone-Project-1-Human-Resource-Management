@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-05T23:26:54 IST" name="Suite" finished-at="2025-06-05T23:27:15 IST" duration-ms="20970">
+    <groups>
+    </groups>
+    <test started-at="2025-06-05T23:26:54 IST" name="Test" finished-at="2025-06-05T23:27:15 IST" duration-ms="20970">
+      <class name="com.hrm.scenario2.TestCases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.scenario2.TestCases.LoginTest@179ece50]" started-at="2025-06-05T23:26:54 IST" name="setup" finished-at="2025-06-05T23:26:59 IST" duration-ms="4277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.hrm.scenario2.TestCases.LoginTest@179ece50]" started-at="2025-06-05T23:26:59 IST" name="init" finished-at="2025-06-05T23:26:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="login()[pri:0, instance:com.hrm.scenario2.TestCases.LoginTest@179ece50]" started-at="2025-06-05T23:26:59 IST" name="login" finished-at="2025-06-05T23:27:02 IST" duration-ms="3229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.hrm.scenario2.TestCases.LoginTest@179ece50]" started-at="2025-06-05T23:27:02 IST" name="close" finished-at="2025-06-05T23:27:02 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.hrm.scenario2.TestCases.LoginTest -->
+      <class name="com.hrm.scenario2.TestCases.AdminTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.scenario2.TestCases.AdminTest@62ddbd7e]" started-at="2025-06-05T23:27:02 IST" name="setup" finished-at="2025-06-05T23:27:06 IST" duration-ms="4169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.hrm.scenario2.TestCases.AdminTest@62ddbd7e]" started-at="2025-06-05T23:27:06 IST" name="init" finished-at="2025-06-05T23:27:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="assertCountAndNavigateToAdmin()[pri:1, instance:com.hrm.scenario2.TestCases.AdminTest@62ddbd7e]" started-at="2025-06-05T23:27:06 IST" name="assertCountAndNavigateToAdmin" finished-at="2025-06-05T23:27:09 IST" duration-ms="2471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertCountAndNavigateToAdmin -->
+        <test-method signature="testByUserName()[pri:2, instance:com.hrm.scenario2.TestCases.AdminTest@62ddbd7e]" started-at="2025-06-05T23:27:09 IST" name="testByUserName" finished-at="2025-06-05T23:27:11 IST" duration-ms="2126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByUserName -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.hrm.scenario2.TestCases.AdminTest@62ddbd7e]" started-at="2025-06-05T23:27:09 IST" name="init" finished-at="2025-06-05T23:27:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testByUserRole()[pri:3, instance:com.hrm.scenario2.TestCases.AdminTest@62ddbd7e]" started-at="2025-06-05T23:27:11 IST" name="testByUserRole" finished-at="2025-06-05T23:27:13 IST" duration-ms="2157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByUserRole -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.hrm.scenario2.TestCases.AdminTest@62ddbd7e]" started-at="2025-06-05T23:27:11 IST" name="init" finished-at="2025-06-05T23:27:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.hrm.scenario2.TestCases.AdminTest@62ddbd7e]" started-at="2025-06-05T23:27:13 IST" name="init" finished-at="2025-06-05T23:27:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testByUserStatus()[pri:4, instance:com.hrm.scenario2.TestCases.AdminTest@62ddbd7e]" started-at="2025-06-05T23:27:13 IST" name="testByUserStatus" finished-at="2025-06-05T23:27:15 IST" duration-ms="2203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByUserStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.hrm.scenario2.TestCases.AdminTest@62ddbd7e]" started-at="2025-06-05T23:27:15 IST" name="close" finished-at="2025-06-05T23:27:15 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.hrm.scenario2.TestCases.AdminTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
